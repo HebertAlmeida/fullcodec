@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-editable="page-title">Hebert Francisco - Desenvolvedor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">
+                <h2 data-editable="nav-logo-text">Hebert Francisco</h2>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-editable="hero-title">
+                        Desenvolvedor <span class="highlight">Full Stack</span>
+                    </h1>
+                    <p class="hero-description" data-editable="hero-description">
+                        Transformo ideias em soluções digitais inovadoras. desenvolvimento web moderno, 
+                        criando aplicações robustas e experiências excepcionais para usuários.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/hero.jpeg" alt="Desenvolvedor programando" data-editable-src="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-editable="about-section-title">Sobre Mim</h2>
+                    <p class="section-subtitle" data-editable="about-section-subtitle">Conheça minha trajetória e experiência</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/images/about.jpg" alt="Hebert Francisco - Desenvolvedor" data-editable-src="about-image">
+                    </div>
+                    <div class="about-text">
+                        <h3 data-editable="about-greeting">Olá, eu sou Hebert Francisco</h3>
+                        <p data-editable="about-p1">
+                            Desenvolvedor, crio soluções digitais que conectam pessoas e empresas. Dando vida a projetos inovadores 
+                            e impactantes.
+                        </p>
+                        <p data-editable="about-p2">
+                            Minha paixão é transformar ideias complexas em aplicações simples e intuitivas, sempre focando 
+                            na experiência do usuário e na qualidade do código.
+                        </p>
+                        <div class="skills">
+                            <div class="skill-item"><i class="fab fa-js-square"></i> <span data-editable="skill-1">bubble</span></div>
+                            <div class="skill-item"><i class="fab fa-react"></i> <span data-editable="skill-2">React</span></div>
+                            <div class="skill-item"><i class="fab fa-node-js"></i> <span data-editable="skill-3">Node.js</span></div>
+                            <div class="skill-item"><i class="fab fa-python"></i> <span data-editable="skill-4">Python</span></div>
+                            <div class="skill-item"><i class="fas fa-database"></i> <span data-editable="skill-5">Databases</span></div>
+                            <div class="skill-item"><i class="fab fa-aws"></i> <span data-editable="skill-6">AWS</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-editable="services-section-title">Meus Serviços</h2>
+                    <p class="section-subtitle" data-editable="services-section-subtitle">Soluções completas para suas necessidades digitais</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <h3 data-editable="service-1-title">Desenvolvimento Web</h3>
+                        <p data-editable="service-1-desc">Criação de sites e aplicações web responsivas usando as tecnologias mais modernas do mercado.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 data-editable="service-2-title">Desenvolvimento Mobile</h3>
+                        <p data-editable="service-2-desc">Aplicativos móveis nativos e híbridos para iOS e Android com foco na experiência do usuário.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-server"></i></div>
+                        <h3 data-editable="service-3-title">Backend & APIs</h3>
+                        <p data-editable="service-3-desc">Desenvolvimento de APIs robustas e escaláveis para integração com sistemas e aplicações.</p>
+                    </div>
+                     <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                        <h3 data-editable="service-4-title">Cloud & DevOps</h3>
+                        <p data-editable="service-4-desc">Implementação de soluções em nuvem e automação de processos de desenvolvimento e deploy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-editable="projects-section-title">Meus Projetos</h2>
+                    <p class="section-subtitle" data-editable="projects-section-subtitle">Alguns dos trabalhos que desenvolvi recentemente</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects.png" alt="E-commerce Platform" data-editable-src="project-1-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-editable="project-1-title">Plataforma E-commerce</h3>
+                            <p data-editable="project-1-desc">Sistema completo de e-commerce com painel administrativo e integração com gateways de pagamento.</p>
+                            <div class="project-tech" data-editable="project-1-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects.png" alt="Task Management App" data-editable-src="project-2-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-editable="project-2-title">App de Gestão de Tarefas</h3>
+                            <p data-editable="project-2-desc">Aplicativo mobile para gestão de tarefas e projetos com sincronização em tempo real e colaboração.</p>
+                            <div class="project-tech" data-editable="project-2-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects.png" alt="Analytics Dashboard" data-editable-src="project-3-image">
+                        </div>
+                        <div class="project-content">
+                            <h3 data-editable="project-3-title">Dashboard de Analytics</h3>
+                            <p data-editable="project-3-desc">Painel de controle para visualização de dados e métricas em tempo real com gráficos interativos.</p>
+                            <div class="project-tech" data-editable="project-3-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-editable="contact-section-title">Entre em Contato</h2>
+                    <p class="section-subtitle" data-editable="contact-section-subtitle">Vamos conversar sobre seu próximo projeto</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p data-editable="contact-email">fullcodec@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p data-editable="contact-phone">+55 (37) 99840-7564</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p data-editable="contact-location">Pequi, MG - Brasil</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span data-editable="footer-name">Hebert Francisco</span>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="admin-panel" class="admin-panel">
+        <p>Modo de Edição</p>
+        <button id="save-button" class="btn btn-primary">Salvar</button>
+        <button id="exit-button" class="btn btn-secondary">Sair</button>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
